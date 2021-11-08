@@ -2,8 +2,11 @@
  XConsole is a Linux-Windows console app base.
 
  Uses CMake and C++17 (ncurses for UNIX)
+ <br/><br/>
 
- <br/>
+# Usage
+ Paste the XConsole/ into your project and `#include "XConsole/include.h"`
+ <br/><br/>
 
 # Features
 
@@ -14,10 +17,10 @@
  ## RenderSystem
  *Accessed through a provided g_pRenderSystem pointer.*
 
- *PrintAt* - Prints a given string at a given coordinate.
+ `printAt` - Prints a given string at a given coordinate.
 <br/><br/>
  ## Vector2D
- *Normalize* - Normalizes the Vector and returns the scale of normalization.
+ `normalize` - Normalizes the Vector and returns the scale of normalization.
 <br/>
 <br/>
 
